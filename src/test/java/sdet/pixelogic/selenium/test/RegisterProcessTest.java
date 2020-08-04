@@ -3,14 +3,19 @@ package sdet.pixelogic.selenium.test;
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
+import java.io.ByteArrayInputStream;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
+//import org.openqa.selenium.Proxy;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+//import org.openqa.selenium.chrome.ChromeOptions;
+//import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -19,27 +24,36 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
 import com.github.javafaker.Faker;
 
+import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 
-public class ChromeDriverTest {
+public class RegisterProcessTest {
 
 	ChromeDriver driver;
+	
+	//Generating fake registration data
 	Faker fakeData = new Faker();
 	String firstname = fakeData.name().firstName();
 	String lastname = fakeData.name().lastName();
 	String phone = fakeData.phoneNumber().cellPhone();
 	String email = fakeData.internet().emailAddress();
+	
+	//Generating password of 8 characters including upper case letters
 	String password = fakeData.lorem().characters(8, true);
-
+	
+	WebDriverWait wait;
+	
+	String successLoginURL;
+	String successLogoutURL;
+    
 	@BeforeTest
 	public void openURL()
-	{
+	{ 
 		//Add Chrome Driver executable file in the system properties
 		String ChromePath = System.getProperty("user.dir")+"\\resources\\chromedriver.exe";
 		System.setProperty("webdriver.chrome.driver",ChromePath);
@@ -47,13 +61,13 @@ public class ChromeDriverTest {
 		//Take new object from Chrome Driver
 		driver = new ChromeDriver();
 
-		//Open Google URL from WebDriver
+		//Open URL from WebDriver
 		driver.navigate().to("https://www.phptravels.net/register");
-
 	}
 
 	@Test(priority = 0)
 	@Description("Sign Up Test Case")
+	@Severity(SeverityLevel.CRITICAL)
 	public void SignUp() 
 	{
 		WebElement firstnameTxt    = driver.findElement(By.name("firstname"));
@@ -81,44 +95,48 @@ public class ChromeDriverTest {
 		cfmpasswordTxt.clear();
 		cfmpasswordTxt.sendKeys(password);
 
-		//Hitting enter to Sign Up
-		//cfmpasswordTxt.sendKeys(Keys.RETURN);
 		cfmpasswordTxt.submit();
 		
 		//Add wait time to handle low speed internet connection
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.titleContains("My Account"));
-		
+				
 		//Validate that it has logged in successfully
-		String successLogin = driver.getCurrentUrl();
-		Assert.assertEquals(successLogin,"https://www.phptravels.net/account/");
+		successLoginURL = driver.getCurrentUrl();
+		Assert.assertEquals(successLoginURL,"https://www.phptravels.net/account/");
+		
+		//Add screenshot to Allure report
+		AllureScreenshot(driver,"SignUp Screenshot");
 	}
 	
 	@Test(priority = 1)
 	@Description("Logout Test Case")
-	@Attachment
+	@Severity(SeverityLevel.CRITICAL)
 	public void Logout()
 	{
-		WebElement account        = driver.findElement(By.cssSelector(".bx.bx-user"));
+		WebElement account = driver.findElement(By.cssSelector(".bx.bx-user"));
 		account.click();
 		
-		WebElement logout        = driver.findElement(By.xpath("//*[@id=\"//header-waypoint-sticky\"]/div[1]/div/div/div[2]/div/ul/li[3]/div/div/div/a[2]"));
+		WebElement logout  = driver.findElement(By.xpath("//*[@id=\"//header-waypoint-sticky\"]/div[1]/div/div/div[2]/div/ul/li[3]/div/div/div/a[2]"));
 		logout.click();
 		
 		//Validate that it has logged in successfully
-		String successLogout = driver.getCurrentUrl();
-		Assert.assertEquals(successLogout,"https://www.phptravels.net/login");
+		successLogoutURL = driver.getCurrentUrl();
+		Assert.assertEquals(successLogoutURL,"https://www.phptravels.net/login");
+		
+		//Add screenshot to Allure report
+		AllureScreenshot(driver,"Logout Screenshot");
 	}
 	
 	@Test(priority = 2)
 	@Description("Login Test Case")
-	@Attachment(value = "Screenshot", type = "image/png")
+	@Severity(SeverityLevel.CRITICAL)
 	public void Login()
 	{
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.titleContains("Login"));
 		
-		WebElement emailTxt        = driver.findElement(By.name("usernamee"));
+		WebElement emailTxt        = driver.findElement(By.name("username"));
 		WebElement passwordTxt     = driver.findElement(By.name("password"));
 		
 		emailTxt.clear();
@@ -134,21 +152,15 @@ public class ChromeDriverTest {
 		wait.until(ExpectedConditions.titleContains("My Account"));
 		
 		//Validate that it has logged in successfully
-		String successLogin = driver.getCurrentUrl();
-		Assert.assertEquals(successLogin,"https://www.phptravels.net/account/");
+		successLoginURL = driver.getCurrentUrl();
+		Assert.assertEquals(successLoginURL,"https://www.phptravels.net/account/");
 		
-		try 
-		{
-			// Injecting a failure here to show case a failure
-			Assert.assertEquals(driver.findElement(By.id("firstHeading")).getText(), "HP ALM");		
-		} catch (AssertionError err) {
-			takeScreenshot();
-			throw err;
-		}
+		//Add screenshot to Allure report
+		AllureScreenshot(driver,"Login Screenshot");
 	}
 	
 	@AfterMethod
-	public void SignUpFailScreenshot(ITestResult result) throws IOException
+	public void RegisterLoginFailScreenshot(ITestResult result) throws IOException
 	{
 		if(ITestResult.FAILURE == result.getStatus())
 		{
@@ -156,6 +168,8 @@ public class ChromeDriverTest {
 			TakesScreenshot ts = (TakesScreenshot)driver;
 			File source = ts.getScreenshotAs(OutputType.FILE);
 			FileUtils.copyFile(source, new File("./ScreenshotsOfFailures/"+ result.getName() + ".png"));
+		    //Allure.addAttachment("Failure Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+			AllureScreenshot(driver,"Failure Screenshot of " + result.getName());
 			driver.quit();
 		}
 	}
@@ -164,12 +178,46 @@ public class ChromeDriverTest {
 	public void closeDriver() 
 	{
 		driver.quit();
+	}	
+	
+	public void AllureScreenshot(WebDriver driver, String ScreenshotTitle)
+	{
+		Allure.addAttachment(ScreenshotTitle, new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
 	}
 	
-	@Attachment(value = "Screenshot", type = "image/png")
-	public byte[] takeScreenshot() 
-	{
-			// Take a screenshot as byte array and return
-			return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
-	}
+	
+	//Not sure of it
+//	public void SignUpHTTPInterceptor() 
+//	{
+//	    Proxy proxyServer = new BrowserMobProxyServer();
+//	    proxyServer.start();
+//
+//	    // capture content as a HAR (HTTP Archive)
+//	    // to process when test is complete
+//	    proxyServer.enableHarCaptureTypes(CaptureType.REQUEST_CONTENT,
+//	                                      CaptureType.RESPONSE_CONTENT);
+//	    proxyServer.newHar();
+//	    
+//	    final Proxy proxyConfig = ClientUtil.createSeleniumProxy(proxyServer);
+//	    
+//	    String proxyDetails = "127.0.0.1:8080";
+//	    final Proxy proxyConfig = new Proxy().
+//	                                setHttpProxy(proxyDetails).
+//	                                setSslProxy(proxyDetails);
+//	    
+//	    final ChromeOptions options = new ChromeOptions();
+//	    options.setProxy(proxyConfig);
+//	    options.setAcceptInsecureCerts(true);
+//	    driver = new ChromeDriver(options);
+//	    
+//	    final Har httpMessages = proxyServer.getHar();
+//	    for(HarEntry httpMessage : httpMessages.getLog().getEntries()){
+//
+//	        // check no errors on the XHR requests
+//	        if(httpMessage.getRequest().getUrl().contains("/messageset")) {
+//	            Assertions.assertEquals(200, httpMessage.getResponse().getStatus());
+//	        }
+//	    }
+//	    proxyServer.abort();
+//    }
 }

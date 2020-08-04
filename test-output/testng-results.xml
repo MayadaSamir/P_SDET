@@ -1,140 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19494" started-at="2020-08-04T04:21:21 EET" finished-at="2020-08-04T04:21:40 EET">
+  <suite name="Default suite" duration-ms="25300" started-at="2020-08-04T22:59:56 EET" finished-at="2020-08-04T23:00:21 EET">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19494" started-at="2020-08-04T04:21:21 EET" finished-at="2020-08-04T04:21:40 EET">
-      <class name="sdet.pixelogic.selenium.test.ChromeDriverTest">
-        <test-method status="PASS" signature="openURL()[pri:0, instance:sdet.pixelogic.selenium.test.ChromeDriverTest@574cd322]" name="openURL" is-config="true" duration-ms="10389" started-at="2020-08-04T04:21:21 EET" finished-at="2020-08-04T04:21:31 EET">
+    <test name="Default test" duration-ms="25300" started-at="2020-08-04T22:59:56 EET" finished-at="2020-08-04T23:00:21 EET">
+      <class name="sdet.pixelogic.selenium.test.RegisterProcessTest">
+        <test-method status="PASS" signature="openURL()[pri:0, instance:sdet.pixelogic.selenium.test.RegisterProcessTest@3b1ed14b]" name="openURL" is-config="true" duration-ms="12529" started-at="2020-08-04T22:59:56 EET" finished-at="2020-08-04T23:00:08 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openURL -->
-        <test-method status="PASS" signature="SignUp()[pri:0, instance:sdet.pixelogic.selenium.test.ChromeDriverTest@574cd322]" name="SignUp" duration-ms="4522" started-at="2020-08-04T04:21:31 EET" finished-at="2020-08-04T04:21:36 EET">
+        <test-method status="PASS" signature="SignUp()[pri:0, instance:sdet.pixelogic.selenium.test.RegisterProcessTest@3b1ed14b]" name="SignUp" duration-ms="5008" started-at="2020-08-04T23:00:08 EET" finished-at="2020-08-04T23:00:13 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignUp -->
-        <test-method status="PASS" signature="SignUpFailScreenshot(org.testng.ITestResult)[pri:0, instance:sdet.pixelogic.selenium.test.ChromeDriverTest@574cd322]" name="SignUpFailScreenshot" is-config="true" duration-ms="3" started-at="2020-08-04T04:21:36 EET" finished-at="2020-08-04T04:21:36 EET">
+        <test-method status="PASS" signature="RegisterLoginFailScreenshot(org.testng.ITestResult)[pri:0, instance:sdet.pixelogic.selenium.test.RegisterProcessTest@3b1ed14b]" name="RegisterLoginFailScreenshot" is-config="true" duration-ms="3" started-at="2020-08-04T23:00:14 EET" finished-at="2020-08-04T23:00:14 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SignUp status=SUCCESS method=ChromeDriverTest.SignUp()[pri:0, instance:sdet.pixelogic.selenium.test.ChromeDriverTest@574cd322] output={null}]]]>
+                <![CDATA[[TestResult name=SignUp status=SUCCESS method=RegisterProcessTest.SignUp()[pri:0, instance:sdet.pixelogic.selenium.test.RegisterProcessTest@3b1ed14b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SignUpFailScreenshot -->
-        <test-method status="PASS" signature="Logout()[pri:1, instance:sdet.pixelogic.selenium.test.ChromeDriverTest@574cd322]" name="Logout" duration-ms="2392" started-at="2020-08-04T04:21:36 EET" finished-at="2020-08-04T04:21:38 EET">
+        </test-method> <!-- RegisterLoginFailScreenshot -->
+        <test-method status="PASS" signature="Logout()[pri:1, instance:sdet.pixelogic.selenium.test.RegisterProcessTest@3b1ed14b]" name="Logout" duration-ms="3251" started-at="2020-08-04T23:00:14 EET" finished-at="2020-08-04T23:00:17 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logout -->
-        <test-method status="PASS" signature="SignUpFailScreenshot(org.testng.ITestResult)[pri:0, instance:sdet.pixelogic.selenium.test.ChromeDriverTest@574cd322]" name="SignUpFailScreenshot" is-config="true" duration-ms="1" started-at="2020-08-04T04:21:38 EET" finished-at="2020-08-04T04:21:38 EET">
+        <test-method status="PASS" signature="RegisterLoginFailScreenshot(org.testng.ITestResult)[pri:0, instance:sdet.pixelogic.selenium.test.RegisterProcessTest@3b1ed14b]" name="RegisterLoginFailScreenshot" is-config="true" duration-ms="1" started-at="2020-08-04T23:00:17 EET" finished-at="2020-08-04T23:00:17 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Logout status=SUCCESS method=ChromeDriverTest.Logout()[pri:1, instance:sdet.pixelogic.selenium.test.ChromeDriverTest@574cd322] output={null}]]]>
+                <![CDATA[[TestResult name=Logout status=SUCCESS method=RegisterProcessTest.Logout()[pri:1, instance:sdet.pixelogic.selenium.test.RegisterProcessTest@3b1ed14b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SignUpFailScreenshot -->
-        <test-method status="FAIL" signature="Login()[pri:2, instance:sdet.pixelogic.selenium.test.ChromeDriverTest@574cd322]" name="Login" duration-ms="57" started-at="2020-08-04T04:21:38 EET" finished-at="2020-08-04T04:21:38 EET">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"name","selector":"usernamee"}
-  (Session info: chrome=84.0.4147.105)
-  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'EQ-EQ6284170', ip: '192.168.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\CKDL8058\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 84.0.4147.105, webStorageEnabled: true}
-Session ID: 97c5db017745a1a778d01fca380b8fe5
-*** Element info: {Using=name, value=usernamee}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"name","selector":"usernamee"}
-  (Session info: chrome=84.0.4147.105)
-  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'EQ-EQ6284170', ip: '192.168.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\CKDL8058\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 84.0.4147.105, webStorageEnabled: true}
-Session ID: 97c5db017745a1a778d01fca380b8fe5
-*** Element info: {Using=name, value=usernamee}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:217)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:169)
-at org.openqa.selenium.remote.codec.jwp.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:41)
-at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:83)
-at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:47)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:421)
-at org.openqa.selenium.By$ByName.findElement(By.java:311)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
-at sdet.pixelogic.selenium.test.ChromeDriverTest.Login(ChromeDriverTest.java:121)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        </test-method> <!-- RegisterLoginFailScreenshot -->
+        <test-method status="PASS" signature="Login()[pri:2, instance:sdet.pixelogic.selenium.test.RegisterProcessTest@3b1ed14b]" name="Login" duration-ms="3044" started-at="2020-08-04T23:00:17 EET" finished-at="2020-08-04T23:00:20 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="SignUpFailScreenshot(org.testng.ITestResult)[pri:0, instance:sdet.pixelogic.selenium.test.ChromeDriverTest@574cd322]" name="SignUpFailScreenshot" is-config="true" duration-ms="1842" started-at="2020-08-04T04:21:38 EET" finished-at="2020-08-04T04:21:40 EET">
+        <test-method status="PASS" signature="RegisterLoginFailScreenshot(org.testng.ITestResult)[pri:0, instance:sdet.pixelogic.selenium.test.RegisterProcessTest@3b1ed14b]" name="RegisterLoginFailScreenshot" is-config="true" duration-ms="1" started-at="2020-08-04T23:00:20 EET" finished-at="2020-08-04T23:00:20 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Login status=FAILURE method=ChromeDriverTest.Login()[pri:2, instance:sdet.pixelogic.selenium.test.ChromeDriverTest@574cd322] output={null}]]]>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=RegisterProcessTest.Login()[pri:2, instance:sdet.pixelogic.selenium.test.RegisterProcessTest@3b1ed14b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SignUpFailScreenshot -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:sdet.pixelogic.selenium.test.ChromeDriverTest@574cd322]" name="closeDriver" is-config="true" duration-ms="2" started-at="2020-08-04T04:21:40 EET" finished-at="2020-08-04T04:21:40 EET">
+        </test-method> <!-- RegisterLoginFailScreenshot -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:sdet.pixelogic.selenium.test.RegisterProcessTest@3b1ed14b]" name="closeDriver" is-config="true" duration-ms="1175" started-at="2020-08-04T23:00:20 EET" finished-at="2020-08-04T23:00:21 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-      </class> <!-- sdet.pixelogic.selenium.test.ChromeDriverTest -->
+      </class> <!-- sdet.pixelogic.selenium.test.RegisterProcessTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

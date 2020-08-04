@@ -3,14 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="sdet.pixelogic.selenium.test.ChromeDriverTest">
+      <class name="sdet.pixelogic.selenium.test.RegisterProcessTest">
         <methods>
+          <include name="SignUp"/>
           <include name="Login"/>
-          <include name="openURL"/>
-          <include name="SignUpFailScreenshot"/>
+          <include name="RegisterLoginFailScreenshot"/>
+          <include name="Logout"/>
           <include name="closeDriver"/>
+          <include name="openURL"/>
         </methods>
-      </class> <!-- sdet.pixelogic.selenium.test.ChromeDriverTest -->
+      </class> <!-- sdet.pixelogic.selenium.test.RegisterProcessTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
