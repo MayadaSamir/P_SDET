@@ -11,5 +11,5 @@ The project has 3 automated Test Cases to:
 
 Allure report with screenshots of failures can be accessed by the command 'allure.bat serve' from cmd inside the project.
 
-Limitations: this project is developed to run on Google Chrome
+Limitations: this project is developed to run on Google Chrome.
 
