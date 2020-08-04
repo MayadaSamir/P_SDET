@@ -1,0 +1,78 @@
+{
+  "uid" : "6e6fa9759adba757",
+  "name" : "Logout",
+  "fullName" : "sdet.pixelogic.selenium.test.RegisterProcessTest.Logout",
+  "historyId" : "37d0164540a59cc3052fd3768cd6b2b7",
+  "time" : {
+    "start" : 1596546156608,
+    "stop" : 1596546158826,
+    "duration" : 2218
+  },
+  "description" : "Logout Test Case",
+  "descriptionHtml" : "<p>Logout Test Case</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "SignUpFailScreenshot",
+    "time" : {
+      "start" : 1596546158834,
+      "stop" : 1596546158834,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sdet.pixelogic.selenium.test.RegisterProcessTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sdet.pixelogic.selenium.test.RegisterProcessTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "Logout"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sdet.pixelogic.selenium.test.RegisterProcessTest"
+  }, {
+    "name" : "host",
+    "value" : "EQ-EQ6284170"
+  }, {
+    "name" : "thread",
+    "value" : "16968@EQ-EQ6284170.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6e6fa9759adba757.json",
+  "parameterValues" : [ ]
+}

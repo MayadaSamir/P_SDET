@@ -1,0 +1,113 @@
+{
+  "uid" : "42f1789ee9c66b82",
+  "name" : "SignUp",
+  "fullName" : "sdet.pixelogic.selenium.test.RegisterProcessTest.SignUp",
+  "historyId" : "af31ee655581815c25820bc74f6df8fb",
+  "time" : {
+    "start" : 1596547261182,
+    "stop" : 1596547266434,
+    "duration" : 5252
+  },
+  "description" : "Sign Up Test Case",
+  "descriptionHtml" : "<p>Sign Up Test Case</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "openURL",
+    "time" : {
+      "start" : 1596547242561,
+      "stop" : 1596547261077,
+      "duration" : 18516
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "SignUpFailScreenshot",
+    "time" : {
+      "start" : 1596547266565,
+      "stop" : 1596547266566,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "closeDriver",
+    "time" : {
+      "start" : 1596547266590,
+      "stop" : 1596547268100,
+      "duration" : 1510
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sdet.pixelogic.selenium.test.RegisterProcessTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sdet.pixelogic.selenium.test.RegisterProcessTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "SignUp"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sdet.pixelogic.selenium.test.RegisterProcessTest"
+  }, {
+    "name" : "host",
+    "value" : "EQ-EQ6284170"
+  }, {
+    "name" : "thread",
+    "value" : "11108@EQ-EQ6284170.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "42f1789ee9c66b82.json",
+  "parameterValues" : [ ]
+}

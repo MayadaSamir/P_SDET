@@ -1,0 +1,130 @@
+{
+  "uid" : "24c41bc070bd0491",
+  "name" : "Logout",
+  "fullName" : "sdet.pixelogic.selenium.test.RegisterProcessTest.Logout",
+  "historyId" : "37d0164540a59cc3052fd3768cd6b2b7",
+  "time" : {
+    "start" : 1596569988358,
+    "stop" : 1596569992431,
+    "duration" : 4073
+  },
+  "description" : "Logout Test Case",
+  "descriptionHtml" : "<p>Logout Test Case</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "openURL",
+    "time" : {
+      "start" : 1596569964681,
+      "stop" : 1596569981732,
+      "duration" : 17051
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Logout Test Case",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f74dd4918239d21b",
+      "name" : "Logout Screenshot",
+      "source" : "f74dd4918239d21b.png",
+      "type" : "image/png",
+      "size" : 52549
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeDriver",
+    "time" : {
+      "start" : 1596569998418,
+      "stop" : 1596569999726,
+      "duration" : 1308
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "RegisterLoginFailScreenshot",
+    "time" : {
+      "start" : 1596569992438,
+      "stop" : 1596569992439,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sdet.pixelogic.selenium.test.RegisterProcessTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sdet.pixelogic.selenium.test.RegisterProcessTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "Logout"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sdet.pixelogic.selenium.test.RegisterProcessTest"
+  }, {
+    "name" : "host",
+    "value" : "EQ-EQ6284170"
+  }, {
+    "name" : "thread",
+    "value" : "12368@EQ-EQ6284170.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "24c41bc070bd0491.json",
+  "parameterValues" : [ ]
+}

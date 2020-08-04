@@ -1,0 +1,108 @@
+{
+  "uid" : "d2828bc0d095734",
+  "name" : "Login",
+  "fullName" : "sdet.pixelogic.selenium.test.ChromeDriverTest.Login",
+  "historyId" : "cb936ec75f202b87df7ee9c9bacdb3a8",
+  "time" : {
+    "start" : 1596502940842,
+    "stop" : 1596502946322,
+    "duration" : 5480
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "openURL",
+    "time" : {
+      "start" : 1596502904231,
+      "stop" : 1596502925208,
+      "duration" : 20977
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "closeDriver",
+    "time" : {
+      "start" : 1596502946339,
+      "stop" : 1596502948090,
+      "duration" : 1751
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "SignUpFailScreenshot",
+    "time" : {
+      "start" : 1596502946333,
+      "stop" : 1596502946334,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sdet.pixelogic.selenium.test.ChromeDriverTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sdet.pixelogic.selenium.test.ChromeDriverTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sdet.pixelogic.selenium.test.ChromeDriverTest"
+  }, {
+    "name" : "host",
+    "value" : "EQ-EQ6284170"
+  }, {
+    "name" : "thread",
+    "value" : "3568@EQ-EQ6284170.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d2828bc0d095734.json",
+  "parameterValues" : [ ]
+}

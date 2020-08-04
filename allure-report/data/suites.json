@@ -1,0 +1,125 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Default suite",
+    "children" : [ {
+      "name" : "Default test",
+      "children" : [ {
+        "name" : "sdet.pixelogic.selenium.test.ChromeDriverTest",
+        "children" : [ {
+          "name" : "openURL",
+          "uid" : "39dea354960d5ce3",
+          "parentUid" : "693c516637fb2236bc0cf2a90f0d5b51",
+          "status" : "broken",
+          "time" : {
+            "start" : 1596560654161,
+            "stop" : 1596560654164,
+            "duration" : 3
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "SignUp",
+          "uid" : "3fb3172b34af7318",
+          "parentUid" : "693c516637fb2236bc0cf2a90f0d5b51",
+          "status" : "passed",
+          "time" : {
+            "start" : 1596560725539,
+            "stop" : 1596560731427,
+            "duration" : 5888
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Logout",
+          "uid" : "b695a87ffdc4399c",
+          "parentUid" : "693c516637fb2236bc0cf2a90f0d5b51",
+          "status" : "passed",
+          "time" : {
+            "start" : 1596560731616,
+            "stop" : 1596560734299,
+            "duration" : 2683
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Login",
+          "uid" : "48e95bddb99dc91c",
+          "parentUid" : "693c516637fb2236bc0cf2a90f0d5b51",
+          "status" : "passed",
+          "time" : {
+            "start" : 1596560734322,
+            "stop" : 1596560737095,
+            "duration" : 2773
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "693c516637fb2236bc0cf2a90f0d5b51"
+      }, {
+        "name" : "sdet.pixelogic.selenium.test.RegisterProcessTest",
+        "children" : [ {
+          "name" : "RegisterLoginFailScreenshot",
+          "uid" : "ebed592692a83867",
+          "parentUid" : "232856f7c7b9562c141356d0cbe9d89a",
+          "status" : "broken",
+          "time" : {
+            "start" : 1596574402160,
+            "stop" : 1596574402161,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "SignUp",
+          "uid" : "5ad1722c627659f3",
+          "parentUid" : "232856f7c7b9562c141356d0cbe9d89a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1596574808981,
+            "stop" : 1596574813940,
+            "duration" : 4959
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Logout",
+          "uid" : "aa69b2c4287abd09",
+          "parentUid" : "232856f7c7b9562c141356d0cbe9d89a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1596574814137,
+            "stop" : 1596574817383,
+            "duration" : 3246
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Login",
+          "uid" : "62e6d4b609192961",
+          "parentUid" : "232856f7c7b9562c141356d0cbe9d89a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1596574817401,
+            "stop" : 1596574820442,
+            "duration" : 3041
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "232856f7c7b9562c141356d0cbe9d89a"
+      } ],
+      "uid" : "848117670d75f6868e681771989ad50e"
+    } ],
+    "uid" : "2c8837b97293ea01a164a5cd7048ad56"
+  } ]
+}

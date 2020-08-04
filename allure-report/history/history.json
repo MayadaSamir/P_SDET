@@ -1,0 +1,156 @@
+{
+  "df03f6267d2ed049c919713eaa79e795" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "39dea354960d5ce3",
+      "status" : "broken",
+      "statusDetails" : "Input must be set",
+      "time" : {
+        "start" : 1596560654161,
+        "stop" : 1596560654164,
+        "duration" : 3
+      }
+    } ]
+  },
+  "b2ec8768067be5ba4265f08f535630a5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "62e6d4b609192961",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596574817401,
+        "stop" : 1596574820442,
+        "duration" : 3041
+      }
+    } ]
+  },
+  "af31ee655581815c25820bc74f6df8fb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5ad1722c627659f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596574808981,
+        "stop" : 1596574813940,
+        "duration" : 4959
+      }
+    } ]
+  },
+  "37d0164540a59cc3052fd3768cd6b2b7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aa69b2c4287abd09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596574814137,
+        "stop" : 1596574817383,
+        "duration" : 3246
+      }
+    } ]
+  },
+  "52f43449f6e4bdd9821a25b3e4b9ea05" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ebed592692a83867",
+      "status" : "broken",
+      "statusDetails" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'EQ-EQ6284170', ip: '192.168.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1596574402160,
+        "stop" : 1596574402161,
+        "duration" : 1
+      }
+    } ]
+  },
+  "3c80c0e82f5b973ca5f97ab9b94dfdf6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3fb3172b34af7318",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596560725539,
+        "stop" : 1596560731427,
+        "duration" : 5888
+      }
+    } ]
+  },
+  "cb936ec75f202b87df7ee9c9bacdb3a8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "48e95bddb99dc91c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596560734322,
+        "stop" : 1596560737095,
+        "duration" : 2773
+      }
+    } ]
+  },
+  "1fd03adb722729e684fcf3275af191d0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b695a87ffdc4399c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596560731616,
+        "stop" : 1596560734299,
+        "duration" : 2683
+      }
+    } ]
+  }
+}

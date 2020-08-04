@@ -1,0 +1,78 @@
+{
+  "uid" : "f5a6bdf778096895",
+  "name" : "SignUp",
+  "fullName" : "sdet.pixelogic.selenium.test.RegisterProcessTest.SignUp",
+  "historyId" : "af31ee655581815c25820bc74f6df8fb",
+  "time" : {
+    "start" : 1596546145367,
+    "stop" : 1596546156320,
+    "duration" : 10953
+  },
+  "description" : "Sign Up Test Case",
+  "descriptionHtml" : "<p>Sign Up Test Case</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "SignUpFailScreenshot",
+    "time" : {
+      "start" : 1596546156552,
+      "stop" : 1596546156552,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sdet.pixelogic.selenium.test.RegisterProcessTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sdet.pixelogic.selenium.test.RegisterProcessTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "SignUp"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sdet.pixelogic.selenium.test.RegisterProcessTest"
+  }, {
+    "name" : "host",
+    "value" : "EQ-EQ6284170"
+  }, {
+    "name" : "thread",
+    "value" : "16968@EQ-EQ6284170.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f5a6bdf778096895.json",
+  "parameterValues" : [ ]
+}

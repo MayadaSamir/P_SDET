@@ -1,0 +1,110 @@
+{
+  "uid" : "530b362094e72200",
+  "name" : "Logout",
+  "fullName" : "sdet.pixelogic.selenium.test.ChromeDriverTest.Logout",
+  "historyId" : "1fd03adb722729e684fcf3275af191d0",
+  "time" : {
+    "start" : 1596503953751,
+    "stop" : 1596503956815,
+    "duration" : 3064
+  },
+  "description" : "Logout Test Case",
+  "descriptionHtml" : "<p>Logout Test Case</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "openURL",
+    "time" : {
+      "start" : 1596503928474,
+      "stop" : 1596503946920,
+      "duration" : 18446
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "SignUpFailScreenshot",
+    "time" : {
+      "start" : 1596503956822,
+      "stop" : 1596503956822,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "closeDriver",
+    "time" : {
+      "start" : 1596503958963,
+      "stop" : 1596503958964,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sdet.pixelogic.selenium.test.ChromeDriverTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sdet.pixelogic.selenium.test.ChromeDriverTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "Logout"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sdet.pixelogic.selenium.test.ChromeDriverTest"
+  }, {
+    "name" : "host",
+    "value" : "EQ-EQ6284170"
+  }, {
+    "name" : "thread",
+    "value" : "18200@EQ-EQ6284170.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "530b362094e72200.json",
+  "parameterValues" : [ ]
+}

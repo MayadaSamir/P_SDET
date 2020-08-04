@@ -1,0 +1,81 @@
+[ {
+  "uid" : "48e95bddb99dc91c",
+  "name" : "Login",
+  "time" : {
+    "start" : 1596560734322,
+    "stop" : 1596560737095,
+    "duration" : 2773
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ebed592692a83867",
+  "name" : "RegisterLoginFailScreenshot",
+  "time" : {
+    "start" : 1596574402160,
+    "stop" : 1596574402161,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3fb3172b34af7318",
+  "name" : "SignUp",
+  "time" : {
+    "start" : 1596560725539,
+    "stop" : 1596560731427,
+    "duration" : 5888
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "39dea354960d5ce3",
+  "name" : "openURL",
+  "time" : {
+    "start" : 1596560654161,
+    "stop" : 1596560654164,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5ad1722c627659f3",
+  "name" : "SignUp",
+  "time" : {
+    "start" : 1596574808981,
+    "stop" : 1596574813940,
+    "duration" : 4959
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "62e6d4b609192961",
+  "name" : "Login",
+  "time" : {
+    "start" : 1596574817401,
+    "stop" : 1596574820442,
+    "duration" : 3041
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b695a87ffdc4399c",
+  "name" : "Logout",
+  "time" : {
+    "start" : 1596560731616,
+    "stop" : 1596560734299,
+    "duration" : 2683
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "aa69b2c4287abd09",
+  "name" : "Logout",
+  "time" : {
+    "start" : 1596574814137,
+    "stop" : 1596574817383,
+    "duration" : 3246
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

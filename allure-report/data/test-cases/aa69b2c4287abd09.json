@@ -1,0 +1,372 @@
+{
+  "uid" : "aa69b2c4287abd09",
+  "name" : "Logout",
+  "fullName" : "sdet.pixelogic.selenium.test.RegisterProcessTest.Logout",
+  "historyId" : "37d0164540a59cc3052fd3768cd6b2b7",
+  "time" : {
+    "start" : 1596574814137,
+    "stop" : 1596574817383,
+    "duration" : 3246
+  },
+  "description" : "Logout Test Case",
+  "descriptionHtml" : "<p>Logout Test Case</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "openURL",
+    "time" : {
+      "start" : 1596574796364,
+      "stop" : 1596574808877,
+      "duration" : 12513
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Logout Test Case",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4c82e2307d5421ea",
+      "name" : "Logout Screenshot",
+      "source" : "4c82e2307d5421ea.png",
+      "type" : "image/png",
+      "size" : 52549
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeDriver",
+    "time" : {
+      "start" : 1596574820454,
+      "stop" : 1596574821627,
+      "duration" : 1173
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "RegisterLoginFailScreenshot",
+    "time" : {
+      "start" : 1596574817392,
+      "stop" : 1596574817392,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sdet.pixelogic.selenium.test.RegisterProcessTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sdet.pixelogic.selenium.test.RegisterProcessTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "Logout"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sdet.pixelogic.selenium.test.RegisterProcessTest"
+  }, {
+    "name" : "host",
+    "value" : "EQ-EQ6284170"
+  }, {
+    "name" : "thread",
+    "value" : "14904@EQ-EQ6284170.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "a513a5881cc3d4b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596574645829,
+        "stop" : 1596574648749,
+        "duration" : 2920
+      }
+    }, {
+      "uid" : "3bef34e2bc4beb91",
+      "status" : "broken",
+      "statusDetails" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'EQ-EQ6284170', ip: '192.168.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1596574402135,
+        "stop" : 1596574402140,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "19820ea9ccf52aa2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596573938393,
+        "stop" : 1596573941522,
+        "duration" : 3129
+      }
+    }, {
+      "uid" : "afbfee492c4d59af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596573858366,
+        "stop" : 1596573861063,
+        "duration" : 2697
+      }
+    }, {
+      "uid" : "51a34693b14d9291",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596570267287,
+        "stop" : 1596570271340,
+        "duration" : 4053
+      }
+    }, {
+      "uid" : "c3b59980978c6bbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596570214399,
+        "stop" : 1596570219595,
+        "duration" : 5196
+      }
+    }, {
+      "uid" : "d63b839ade82ffe7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596570143704,
+        "stop" : 1596570147344,
+        "duration" : 3640
+      }
+    }, {
+      "uid" : "d8c00f6b79b7d1aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596570099115,
+        "stop" : 1596570102578,
+        "duration" : 3463
+      }
+    }, {
+      "uid" : "24c41bc070bd0491",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596569988358,
+        "stop" : 1596569992431,
+        "duration" : 4073
+      }
+    }, {
+      "uid" : "207eb9c0cc51f14e",
+      "status" : "broken",
+      "statusDetails" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'EQ-EQ6284170', ip: '192.168.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1596569877541,
+        "stop" : 1596569877546,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "1334e6785765b466",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596569760560,
+        "stop" : 1596569764105,
+        "duration" : 3545
+      }
+    }, {
+      "uid" : "ee001023230feace",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596567876051,
+        "stop" : 1596567880339,
+        "duration" : 4288
+      }
+    }, {
+      "uid" : "1be93ab93a4379b9",
+      "status" : "broken",
+      "statusDetails" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'EQ-EQ6284170', ip: '192.168.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1596567522434,
+        "stop" : 1596567522444,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "3e86db6b9fcdfc95",
+      "status" : "broken",
+      "statusDetails" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'EQ-EQ6284170', ip: '192.168.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1596566222237,
+        "stop" : 1596566222246,
+        "duration" : 9
+      }
+    }, {
+      "uid" : "54730eb9ae09dbea",
+      "status" : "broken",
+      "statusDetails" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'EQ-EQ6284170', ip: '192.168.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1596566077355,
+        "stop" : 1596566077363,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "6dbe124ae796a9f1",
+      "status" : "broken",
+      "statusDetails" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'EQ-EQ6284170', ip: '192.168.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1596565945293,
+        "stop" : 1596565945304,
+        "duration" : 11
+      }
+    }, {
+      "uid" : "c0e1fc9a291063f3",
+      "status" : "broken",
+      "statusDetails" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'EQ-EQ6284170', ip: '192.168.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1596564564072,
+        "stop" : 1596564564081,
+        "duration" : 9
+      }
+    }, {
+      "uid" : "a76d88871b3b9e1",
+      "status" : "broken",
+      "statusDetails" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'EQ-EQ6284170', ip: '192.168.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1596564416225,
+        "stop" : 1596564416232,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "d7b9813a83173539",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596564365032,
+        "stop" : 1596564368585,
+        "duration" : 3553
+      }
+    }, {
+      "uid" : "b6e6f193806356b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596560902831,
+        "stop" : 1596560906007,
+        "duration" : 3176
+      }
+    }, {
+      "uid" : "59805e024fb30317",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596547465217,
+        "stop" : 1596547469184,
+        "duration" : 3967
+      }
+    }, {
+      "uid" : "ef6f8ae737c8a193",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596547403355,
+        "stop" : 1596547406818,
+        "duration" : 3463
+      }
+    }, {
+      "uid" : "2896958ef421c139",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596547312295,
+        "stop" : 1596547315725,
+        "duration" : 3430
+      }
+    }, {
+      "uid" : "14609e1f29ded922",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596546414073,
+        "stop" : 1596546417210,
+        "duration" : 3137
+      }
+    }, {
+      "uid" : "5225f66b520a780b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596546364655,
+        "stop" : 1596546368551,
+        "duration" : 3896
+      }
+    }, {
+      "uid" : "6e6fa9759adba757",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596546156608,
+        "stop" : 1596546158826,
+        "duration" : 2218
+      }
+    }, {
+      "uid" : "85c5ee5b871817bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596546068369,
+        "stop" : 1596546072136,
+        "duration" : 3767
+      }
+    }, {
+      "uid" : "a297c253d584edfb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596545957355,
+        "stop" : 1596545960598,
+        "duration" : 3243
+      }
+    }, {
+      "uid" : "616374621deba43f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596545897316,
+        "stop" : 1596545900509,
+        "duration" : 3193
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aa69b2c4287abd09.json",
+  "parameterValues" : [ ]
+}

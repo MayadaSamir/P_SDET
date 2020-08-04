@@ -1,0 +1,188 @@
+{
+  "uid" : "3fb3172b34af7318",
+  "name" : "SignUp",
+  "fullName" : "sdet.pixelogic.selenium.test.ChromeDriverTest.SignUp",
+  "historyId" : "3c80c0e82f5b973ca5f97ab9b94dfdf6",
+  "time" : {
+    "start" : 1596560725539,
+    "stop" : 1596560731427,
+    "duration" : 5888
+  },
+  "description" : "Sign Up Test Case",
+  "descriptionHtml" : "<p>Sign Up Test Case</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "openURL",
+    "time" : {
+      "start" : 1596560713197,
+      "stop" : 1596560725370,
+      "duration" : 12173
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "closeDriver",
+    "time" : {
+      "start" : 1596560737108,
+      "stop" : 1596560738525,
+      "duration" : 1417
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "SignUpFailScreenshot",
+    "time" : {
+      "start" : 1596560731571,
+      "stop" : 1596560731571,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sdet.pixelogic.selenium.test.ChromeDriverTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sdet.pixelogic.selenium.test.ChromeDriverTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "SignUp"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sdet.pixelogic.selenium.test.ChromeDriverTest"
+  }, {
+    "name" : "host",
+    "value" : "EQ-EQ6284170"
+  }, {
+    "name" : "thread",
+    "value" : "7740@EQ-EQ6284170.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "3550a159d654141b",
+      "status" : "skipped",
+      "statusDetails" : "Input must be set",
+      "time" : {
+        "start" : 1596560654402,
+        "stop" : 1596560654407,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "859fe5c0523d9d51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596507691562,
+        "stop" : 1596507696023,
+        "duration" : 4461
+      }
+    }, {
+      "uid" : "6247d22befb969c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596507560757,
+        "stop" : 1596507565644,
+        "duration" : 4887
+      }
+    }, {
+      "uid" : "2a4437bc2cc0dcb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596504334355,
+        "stop" : 1596504340215,
+        "duration" : 5860
+      }
+    }, {
+      "uid" : "c96d6d898f361630",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596504252802,
+        "stop" : 1596504258853,
+        "duration" : 6051
+      }
+    }, {
+      "uid" : "8de3c1218ae631b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596504136201,
+        "stop" : 1596504143120,
+        "duration" : 6919
+      }
+    }, {
+      "uid" : "39d15d38f1428d74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596503947059,
+        "stop" : 1596503953459,
+        "duration" : 6400
+      }
+    }, {
+      "uid" : "a2d855f58cb4af58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596503460399,
+        "stop" : 1596503469419,
+        "duration" : 9020
+      }
+    }, {
+      "uid" : "5079d30800d770c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596502925402,
+        "stop" : 1596502934519,
+        "duration" : 9117
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3fb3172b34af7318.json",
+  "parameterValues" : [ ]
+}
