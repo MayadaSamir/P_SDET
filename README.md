@@ -3,7 +3,8 @@
 Selenium framework project to automate Registeration process and verify successful login.
 
 Tech stack: Selenium, Java, Maven, TestNG, Faker, DDT and Allure Reports.
-IDE: Eclipse
+
+IDE used: Eclipse
 
 The project has 3 automated Test Cases to:
 1.Register
