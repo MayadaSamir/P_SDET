@@ -9,7 +9,7 @@ The project has 3 automated Test Cases to:
 2.Logout
 3.Login (to verify successful logins)
 
-Allure project is published with screenshots of failures on: http://192.168.1.118:52588/index.html
+Allure report with screenshots of failures could be accessed by the command 'allure.bat serve' from cmd inside the project.
 
 Limitations: this project is developed to run on Google Chrome
 
