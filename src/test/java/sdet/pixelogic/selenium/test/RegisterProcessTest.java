@@ -46,7 +46,9 @@ public class RegisterProcessTest {
 	//Generating password of 8 characters including upper case letters
 	String password = fakeData.lorem().characters(8, true);
 	
-	WebDriverWait wait;
+	//Instantiate wait;
+	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
 	
 	String successLoginURL;
 	String successLogoutURL;
@@ -98,7 +100,6 @@ public class RegisterProcessTest {
 		cfmpasswordTxt.submit();
 		
 		//Add wait time to handle low speed internet connection
-		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.titleContains("My Account"));
 				
 		//Validate that it has logged in successfully
@@ -133,7 +134,6 @@ public class RegisterProcessTest {
 	@Severity(SeverityLevel.CRITICAL)
 	public void Login()
 	{
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.titleContains("Login"));
 		
 		WebElement emailTxt        = driver.findElement(By.name("username"));
@@ -159,6 +159,7 @@ public class RegisterProcessTest {
 		AllureScreenshot(driver,"Login Screenshot");
 	}
 	
+	//Add screenshot of failures to Allure and ScreenshotsOfFailures folder
 	@AfterMethod
 	public void RegisterLoginFailScreenshot(ITestResult result) throws IOException
 	{
@@ -174,12 +175,14 @@ public class RegisterProcessTest {
 		}
 	}
 	
+	//Close ChromeDriver
 	@AfterTest
 	public void closeDriver() 
 	{
 		driver.quit();
 	}	
 	
+	//Add screenshots to Allure report
 	public void AllureScreenshot(WebDriver driver, String ScreenshotTitle)
 	{
 		Allure.addAttachment(ScreenshotTitle, new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
