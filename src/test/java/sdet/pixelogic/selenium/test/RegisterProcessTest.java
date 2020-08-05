@@ -45,10 +45,9 @@ public class RegisterProcessTest {
 	
 	//Generating password of 8 characters including upper case letters
 	String password = fakeData.lorem().characters(8, true);
-	
-	//Instantiate wait;
-	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
+		
+	//Instantiate wait WebDriverWait wait
+	WebDriverWait wait;
 	
 	String successLoginURL;
 	String successLogoutURL;
@@ -64,7 +63,7 @@ public class RegisterProcessTest {
 		driver = new ChromeDriver();
 
 		//Open URL from WebDriver
-		driver.navigate().to("https://www.phptravels.net/register");
+		driver.navigate().to("https://www.phptravels.net/register");	
 	}
 
 	@Test(priority = 0)
@@ -100,6 +99,7 @@ public class RegisterProcessTest {
 		cfmpasswordTxt.submit();
 		
 		//Add wait time to handle low speed internet connection
+		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.titleContains("My Account"));
 				
 		//Validate that it has logged in successfully
@@ -149,6 +149,7 @@ public class RegisterProcessTest {
 		passwordTxt.sendKeys(Keys.RETURN);
 		
 		//Add wait time to handle low speed internet connection
+		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.titleContains("My Account"));
 		
 		//Validate that it has logged in successfully
@@ -169,7 +170,6 @@ public class RegisterProcessTest {
 			TakesScreenshot ts = (TakesScreenshot)driver;
 			File source = ts.getScreenshotAs(OutputType.FILE);
 			FileUtils.copyFile(source, new File("./ScreenshotsOfFailures/"+ result.getName() + ".png"));
-		    //Allure.addAttachment("Failure Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
 			AllureScreenshot(driver,"Failure Screenshot of " + result.getName());
 			driver.quit();
 		}

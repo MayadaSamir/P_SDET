@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25300" started-at="2020-08-04T22:59:56 EET" finished-at="2020-08-04T23:00:21 EET">
+  <suite name="Default suite" duration-ms="36058" started-at="2020-08-05T11:23:56 EET" finished-at="2020-08-05T11:24:32 EET">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25300" started-at="2020-08-04T22:59:56 EET" finished-at="2020-08-04T23:00:21 EET">
+    <test name="Default test" duration-ms="36058" started-at="2020-08-05T11:23:56 EET" finished-at="2020-08-05T11:24:32 EET">
       <class name="sdet.pixelogic.selenium.test.RegisterProcessTest">
-        <test-method status="PASS" signature="openURL()[pri:0, instance:sdet.pixelogic.selenium.test.RegisterProcessTest@3b1ed14b]" name="openURL" is-config="true" duration-ms="12529" started-at="2020-08-04T22:59:56 EET" finished-at="2020-08-04T23:00:08 EET">
+        <test-method status="PASS" signature="openURL()[pri:0, instance:sdet.pixelogic.selenium.test.RegisterProcessTest@3b1ed14b]" name="openURL" is-config="true" duration-ms="20668" started-at="2020-08-05T11:23:56 EET" finished-at="2020-08-05T11:24:17 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openURL -->
-        <test-method status="PASS" signature="SignUp()[pri:0, instance:sdet.pixelogic.selenium.test.RegisterProcessTest@3b1ed14b]" name="SignUp" duration-ms="5008" started-at="2020-08-04T23:00:08 EET" finished-at="2020-08-04T23:00:13 EET">
+        <test-method status="PASS" signature="SignUp()[pri:0, instance:sdet.pixelogic.selenium.test.RegisterProcessTest@3b1ed14b]" name="SignUp" duration-ms="5989" started-at="2020-08-05T11:24:17 EET" finished-at="2020-08-05T11:24:23 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignUp -->
-        <test-method status="PASS" signature="RegisterLoginFailScreenshot(org.testng.ITestResult)[pri:0, instance:sdet.pixelogic.selenium.test.RegisterProcessTest@3b1ed14b]" name="RegisterLoginFailScreenshot" is-config="true" duration-ms="3" started-at="2020-08-04T23:00:14 EET" finished-at="2020-08-04T23:00:14 EET">
+        <test-method status="PASS" signature="RegisterLoginFailScreenshot(org.testng.ITestResult)[pri:0, instance:sdet.pixelogic.selenium.test.RegisterProcessTest@3b1ed14b]" name="RegisterLoginFailScreenshot" is-config="true" duration-ms="6" started-at="2020-08-05T11:24:23 EET" finished-at="2020-08-05T11:24:23 EET">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegisterLoginFailScreenshot -->
-        <test-method status="PASS" signature="Logout()[pri:1, instance:sdet.pixelogic.selenium.test.RegisterProcessTest@3b1ed14b]" name="Logout" duration-ms="3251" started-at="2020-08-04T23:00:14 EET" finished-at="2020-08-04T23:00:17 EET">
+        <test-method status="PASS" signature="Logout()[pri:1, instance:sdet.pixelogic.selenium.test.RegisterProcessTest@3b1ed14b]" name="Logout" duration-ms="4094" started-at="2020-08-05T11:24:23 EET" finished-at="2020-08-05T11:24:27 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logout -->
-        <test-method status="PASS" signature="RegisterLoginFailScreenshot(org.testng.ITestResult)[pri:0, instance:sdet.pixelogic.selenium.test.RegisterProcessTest@3b1ed14b]" name="RegisterLoginFailScreenshot" is-config="true" duration-ms="1" started-at="2020-08-04T23:00:17 EET" finished-at="2020-08-04T23:00:17 EET">
+        <test-method status="PASS" signature="RegisterLoginFailScreenshot(org.testng.ITestResult)[pri:0, instance:sdet.pixelogic.selenium.test.RegisterProcessTest@3b1ed14b]" name="RegisterLoginFailScreenshot" is-config="true" duration-ms="0" started-at="2020-08-05T11:24:27 EET" finished-at="2020-08-05T11:24:27 EET">
           <params>
             <param index="0">
               <value>
@@ -41,11 +41,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegisterLoginFailScreenshot -->
-        <test-method status="PASS" signature="Login()[pri:2, instance:sdet.pixelogic.selenium.test.RegisterProcessTest@3b1ed14b]" name="Login" duration-ms="3044" started-at="2020-08-04T23:00:17 EET" finished-at="2020-08-04T23:00:20 EET">
+        <test-method status="PASS" signature="Login()[pri:2, instance:sdet.pixelogic.selenium.test.RegisterProcessTest@3b1ed14b]" name="Login" duration-ms="3690" started-at="2020-08-05T11:24:27 EET" finished-at="2020-08-05T11:24:31 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="RegisterLoginFailScreenshot(org.testng.ITestResult)[pri:0, instance:sdet.pixelogic.selenium.test.RegisterProcessTest@3b1ed14b]" name="RegisterLoginFailScreenshot" is-config="true" duration-ms="1" started-at="2020-08-04T23:00:20 EET" finished-at="2020-08-04T23:00:20 EET">
+        <test-method status="PASS" signature="RegisterLoginFailScreenshot(org.testng.ITestResult)[pri:0, instance:sdet.pixelogic.selenium.test.RegisterProcessTest@3b1ed14b]" name="RegisterLoginFailScreenshot" is-config="true" duration-ms="1" started-at="2020-08-05T11:24:31 EET" finished-at="2020-08-05T11:24:31 EET">
           <params>
             <param index="0">
               <value>
@@ -56,7 +56,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegisterLoginFailScreenshot -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:sdet.pixelogic.selenium.test.RegisterProcessTest@3b1ed14b]" name="closeDriver" is-config="true" duration-ms="1175" started-at="2020-08-04T23:00:20 EET" finished-at="2020-08-04T23:00:21 EET">
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:sdet.pixelogic.selenium.test.RegisterProcessTest@3b1ed14b]" name="closeDriver" is-config="true" duration-ms="1329" started-at="2020-08-05T11:24:31 EET" finished-at="2020-08-05T11:24:32 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->

@@ -5,10 +5,8 @@
     <classes>
       <class name="sdet.pixelogic.selenium.test.RegisterProcessTest">
         <methods>
-          <include name="SignUp"/>
           <include name="Login"/>
           <include name="RegisterLoginFailScreenshot"/>
-          <include name="Logout"/>
           <include name="closeDriver"/>
           <include name="openURL"/>
         </methods>
